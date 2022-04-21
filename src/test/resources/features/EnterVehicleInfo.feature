@@ -3,5 +3,5 @@ Feature:
 
   Scenario:
     Given I am an insurance applicant
-    When I request an insurance quote
-    Then I must enter my vehicle information in order to calculate the quote
+    When I request an insurance quote for my camper
+    Then I must enter my camper information in order to calculate the quote
