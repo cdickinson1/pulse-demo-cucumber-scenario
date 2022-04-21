@@ -6,4 +6,4 @@ Feature:
     Given I am logged in as a child
     When I get to the homepage
     Then it will only display the account balance
-    And activities/transactions for children
+    And activities/transactions for appropriate for child accounts
