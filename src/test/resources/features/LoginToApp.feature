@@ -1,4 +1,4 @@
-Feature:
+Feature: Logging in to App as child
   Provided I am logging into the banking app as a child, only child activities are avaiable, 
   not parent or admin activities/actions
 
