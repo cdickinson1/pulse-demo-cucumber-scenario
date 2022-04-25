@@ -2,7 +2,7 @@ Feature: Logging in to App as child
   Provided I am logging into the banking app as a child, only child activities are avaiable, 
   not parent or admin activities/actions
 
-  Scenario:
+  Scenario: Child Loggs in to app
     Given I am logged in as a child
     When I get to the homepage
     Then it will only display the account balance
