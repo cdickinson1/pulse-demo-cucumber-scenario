@@ -1,5 +1,5 @@
 
-Feature: Kid account access
+Feature: Kids account access
   The children should be able to log into their accounts and see how much money they can spend
 
   Scenario: kid should log in
