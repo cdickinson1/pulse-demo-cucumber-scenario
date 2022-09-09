@@ -12,13 +12,13 @@ public class Kids_spending_moneyStep {
         Assert.assertEquals(true, true);
     }
 
-    @When("^i log in after my parent has made an account$")
-    public void i_log_in_after_my_parent_has_made_an_account() throws Throwable {
+    @When("^kid logs in$")
+    public void kid_logs_in() throws Throwable {
         Assert.assertEquals(true, true);
     }
 
-    @Then("^i should see my account balance$")
-    public void i_should_see_my_account_balance() throws Throwable {
+    @Then("^I should be redirected to the ledgar screen$")
+    public void I_should_be_redirected_to_the_ledgar_screen() throws Throwable {
         Assert.assertEquals(true, false);
     }
     
